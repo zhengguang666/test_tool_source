@@ -1,0 +1,18 @@
+Makefile :for linux compile.
+Android.mk :for Android compile.
+
+
+
+
+##############################################
+Usage: ./UART_test  /dev/ttySn -b speed [options]
+-h    show this help page.
+-b    baudrate.
+-r    receive.
+-s    send.
+-l    loop.
+-t    sleep time.before send and receive sleep N secend.(default N=1)
+-f    chose flow control mode.
+		'hard'---hardware flow control
+		'soft'---software flow control
+

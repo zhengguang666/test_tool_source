@@ -1,0 +1,2 @@
+uart/422/485:v115: http://172.21.161.52/svn/EC_CN/test/serial/serial_test.c
+net:v116:http://172.21.161.52/svn/EC_CN/test/iperf-2.0.5/

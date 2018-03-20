@@ -1,0 +1,21 @@
+#!/system/bin/sh
+#Program
+
+if [[ -z $1 ]];then
+echo "Usage: ./mac_write mac_addr"
+echo "For example: ./mac_write 00:0b:ab:11:22:33"
+exit 1
+fi
+
+mac=$1
+cat /proc/cmdline | grep board_info
+if [ $? != 0 ];then
+echo "NOT board_info partition,write MAC address fail!!!!"
+exit 1
+fi
+echo $mac > /data/tmp_mac_addr
+dd if=/data/tmp_mac_addr of=/dev/block/mmcblk0p13
+sync
+rm -f /data/tmp_mac_addr
+sync
+echo "write MAC address successful"

@@ -1,0 +1,22 @@
+Program will
+using /dev/ttyAP1 as testing serial port
+send specific pattern date to testing serial port
+sending length will be 4096 bytes per packet
+sending will pause 0 ms per packet
+start transmit immediately
+update statistic data during testing
+using baudrate 115200 bits/sec
+Run time is:10
+using no parity
+using 5 databit
+using 1 stopbit
+using no flow control
+using RS-232 transmittion mode
+Press ENTER key to exit...
+R 0, 0 BPS<= (00:00:00) =>S 0, 0 BPS, 0     R 0, 0 BPS<= (00:00:00) =>S 212799, 0 BPS, 0     R 0, 0 BPS<= (00:00:01) =>S 425791, 425791 BPS, 0     R 0, 0 BPS<= (00:00:01) =>S 634687, 634687 BPS, 0     R 0, 0 BPS<= (00:00:02) =>S 847679, 423839 BPS, 0     R 0, 0 BPS<= (00:00:02) =>S 1056574, 528287 BPS, 0     R 0, 0 BPS<= (00:00:03) =>S 1269565, 423188 BPS, 0     R 0, 0 BPS<= (00:00:03) =>S 1478461, 492820 BPS, 0     R 0, 0 BPS<= (00:00:04) =>S 1691453, 422863 BPS, 0     R 0, 0 BPS<= (00:00:04) =>S 1904445, 476111 BPS, 0     R 0, 0 BPS<= (00:00:05) =>S 2113340, 422668 BPS, 0     R 0, 0 BPS<= (00:00:05) =>S 2326332, 465266 BPS, 0     R 0, 0 BPS<= (00:00:06) =>S 2535291, 422548 BPS, 0     R 0, 0 BPS<= (00:00:06) =>S 2748218, 458036 BPS, 0     R 0, 0 BPS<= (00:00:07) =>S 2957312, 422473 BPS, 0     R 0, 0 BPS<= (00:00:07) =>S 3170106, 452872 BPS, 0     R 0, 0 BPS<= (00:00:08) =>S 3383098, 422887 BPS, 0     R 0, 0 BPS<= (00:00:08) =>S 3591994, 448999 BPS, 0     R 0, 0 BPS<= (00:00:09) =>S 3804986, 422776 BPS, 0     R 0, 0 BPS<= (00:00:09) =>S 4017978, 446442 BPS, 0     total rx:72
+total tx:23540736
+frame error:0
+parity error:0
+break error:0
+overrun:0
+Program Terminated!

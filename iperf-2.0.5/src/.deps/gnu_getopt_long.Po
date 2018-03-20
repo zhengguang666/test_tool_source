@@ -1,0 +1,96 @@
+gnu_getopt_long.o: gnu_getopt_long.c ../include/gnu_getopt.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./stdio.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./features.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/predefs.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stddef.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/types.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./libio.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./_G_config.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./wchar.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stdarg.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/stdio.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./stdlib.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./endian.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/types.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./time.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/select.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/select.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h
+
+../include/gnu_getopt.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./stdio.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./features.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/predefs.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stddef.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./libio.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./_G_config.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./wchar.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stdarg.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./stdlib.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/waitflags.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./endian.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/types.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./time.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/select.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/select.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sigset.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
+
+/home/michael/work/gsrd/gcc-linaro-arm-linux-gnueabihf-4.7-2012.11_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h:
