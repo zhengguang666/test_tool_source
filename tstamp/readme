@@ -1,0 +1,8 @@
+编译方法：
+gcc tstamp.c -o tstamp
+使用方法：
+stty -F /dev/ttyS0 speed 115200 -parenb -cstopb cread clocal -crtscts
+tstamp.exe < /dev/ttyS0 
+
+或者
+cat /dev/ttyS0  | tstamp.exe
